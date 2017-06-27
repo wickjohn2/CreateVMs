@@ -2,7 +2,7 @@ imports:
 - path: bucket.py
 
 resources:
-- name: testjohnwick
+- name: testbucketjwick
   type: bucket.py
   properties:
     storageClass: regional
