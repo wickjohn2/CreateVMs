@@ -1,9 +1,9 @@
 imports:
-- path: bucket.py
+- path: bucket2.py
 
 resources:
 - name: testbucketjwick
-  type: bucket.py
+  type: bucket2.py
   properties:
     storageClass: regional
     region: us-east1
