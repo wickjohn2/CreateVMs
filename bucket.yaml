@@ -7,6 +7,8 @@ resources:
   properties:
     storageClass: regional
     region: us-east1
+    role: OWNER
+    entity: "user-jwick@google.com"
     acl: 
     - role: OWNER
     - entity: "user-jwick@google.com"
