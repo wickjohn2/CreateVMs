@@ -9,7 +9,7 @@ def GenerateConfig(context):
         'storageClass': context.properties['storageClass'],
         'region': context.properties['region'],
         'acl': {
-          'items': [context.properties['acl']]
+          'items': context.properties['acl']
         }
       }
   }]
