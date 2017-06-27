@@ -12,7 +12,7 @@ def GenerateConfig(context):
       },
     {
       'type': 'storage.v1.bucketAccessControl',
-      'name': context.env['deployment'],
+      'name': '$(ref. + context.env['deployment'] + '.selfLink)',
       'properties': {
         'acl': context.properties['acl']
       }
