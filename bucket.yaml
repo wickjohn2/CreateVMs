@@ -7,4 +7,4 @@ resources:
   properties:
     storageClass: regional
     region: us-east1
-    acl: owner.jwick@google.com
+    acl: [owner.jwick@google.com]
