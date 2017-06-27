@@ -8,7 +8,8 @@ def GenerateConfig(context):
       'properties': {
         'storageClass': context.properties['storageClass'],
         'region': context.properties['region']
-      },
+      }
+  },
     {
       'type': 'storage.v1.bucketAccessControl'
       'name': context.env['deployment'],
