@@ -6,7 +6,7 @@ resources:
   type: bucket2.py
   properties:
     storageClass: regional
-    region: us-east1
+    location: us-east1
     role: OWNER
     entity: "user-jwick@google.com"
     acl: 
