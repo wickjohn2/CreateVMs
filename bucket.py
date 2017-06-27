@@ -4,7 +4,7 @@ def GenerateConfig(context):
 
   resources = [{
       'type': 'storage.v1.bucket',
-      'name': context.properties['name'],
+      'name': context.env['deployment'],
       'properties': {
         'storageClass': context.properties['storageClass'],
         'region': context.properties['region'],
