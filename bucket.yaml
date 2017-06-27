@@ -1,0 +1,10 @@
+imports:
+- path: bucket.py
+
+resources:
+- name: testjohnwick
+  type: bucket.py
+  properties:
+    storageClass: regional
+    region: us-east1
+    acl: [owner.jwick@google.com]
