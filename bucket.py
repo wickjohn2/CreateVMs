@@ -4,11 +4,11 @@ def GenerateConfig(context):
 
   resources = [{
       'type': 'storage.v1.bucket',
-      'name': bucket('name'),
+      'name': context.properties['name'],
       'properties': {
-        'storageClass': 'regional',
-        'region': bucket(region),
-        'acl': [owner.example@googlegroups.com, writer.test@googlegroups.com]
+        'storageClass': context.properties['storageClass'],
+        'region': context.properties['region'],
+        'acl': context.properties['acl']
       }
   }]
   return {'resources': resources}
