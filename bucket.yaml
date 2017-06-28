@@ -9,6 +9,6 @@ resources:
     location: us-east1
     role: OWNER
     entity: "user-jwick@google.com"
-    acl: 
+    defaultObjectAcl: 
     - role: OWNER
-    entity: "user-jwick@google.com"
+    entity: "user-whitedavid@google.com"
