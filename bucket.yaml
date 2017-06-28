@@ -7,8 +7,6 @@ resources:
   properties:
     storageClass: REGIONAL
     location: us-east1
-    role: OWNER
-    entity: "user-jwick@google.com"
     defaultObjectAcl: 
     - role: OWNER
     entity: "user-jwick@google.com"
