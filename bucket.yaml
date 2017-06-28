@@ -11,4 +11,4 @@ resources:
     entity: "user-jwick@google.com"
     defaultObjectAcl: 
     - role: OWNER
-    entity: "user-whitedavid@google.com"
+    entity: "user-jwick@google.com"
