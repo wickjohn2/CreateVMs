@@ -11,4 +11,4 @@ resources:
     entity: "user-jwick@google.com"
     acl: 
     - role: OWNER
-    - entity: "user-jwick@google.com"
+    entity: "user-jwick@google.com"
