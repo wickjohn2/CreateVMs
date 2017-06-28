@@ -7,7 +7,8 @@ def GenerateConfig(context):
       'name': context.env['deployment'],
       'properties': {
         'storageClass': context.properties['storageClass'],
-        'location': context.properties['location']
+        'location': context.properties['location'],
+        'acl': context.properties['acl']
       }
     }
   ]
