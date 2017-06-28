@@ -8,7 +8,7 @@ def GenerateConfig(context):
       'properties': {
         'storageClass': context.properties['storageClass'],
         'location': context.properties['location'],
-        'acl': context.properties['acl']
+        'defaultObjectAcl': context.properties['defaultObjectAcl']
       }
     }
   ]
